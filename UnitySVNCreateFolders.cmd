@@ -1,3 +1,4 @@
+@ECHO OFF
 REM 
 REM A simple script in Windows Batch, to create the necessary folders for Unity project using Subversion.
 REM
@@ -5,94 +6,94 @@ REM MUST be run in the root folder of the project.
 REM
 REM For more details see http://blog.ibuprogames.com/...
 REM
-@ECHO OFF
 
-echo Creating folders.
-pause
+ECHO Creating folders.
+PAUSE
 
-md branches
-md tags
-md trunk
+MD branches
+MD tags
+MD trunk
 
-cd trunk
+CD trunk
 
 REM For graphic artists.
-md Art
+MD Art
 
 REM For audio engineers.
-md Audio
+MD Audio
 
 REM Executable Versions. One folder for each platform.
-md Binaries
-md Binaries\Windows
+MD Binaries
+MD Binaries\Windows
 
 REM For designers.
-md Documentation
+MD Documentation
 
 REM Useful tools.
-md Tools
+MD Tools
 
 REM Unity folder project.
-md Game
+MD Game
 
-cd Game
+CD Game
 
-md Assets
-md ProjectSettings
+MD Assets
+MD ProjectSettings
 
-cd Assets
+CD Assets
 
 REM Music and sound effects.
-md Audio
-md Audio\Effects
-md Audio\Effects\Enviroment
-md Audio\Music
+MD Audio
+MD Audio\Effects
+MD Audio\Effects\Enviroment
+MD Audio\Music
 
 REM Icons for editor.
-md Gizmos
+MD Gizmos
 
 REM Postprocessing effects.
-md "Image Effects"
+MD "Image Effects"
 
 REM 3D geometry.
-md Models
+MD Models
 
 REM External packages (e.g. asset store packages).
-md Packages
+MD Packages
 
 REM Particle effects.
-md Particles
+MD Particles
 
 REM Physical materials.
-md PhysicMaterials
+MD PhysicMaterials
 
 REM Configuration of each platform.
-md PlayerSettings
-md PlayerSettings\Windows
+MD PlayerSettings
+MD PlayerSettings\Windows
 
 REM Prefabs.
-md Prefabs
+MD Prefabs
 
 REM Resources that are loaded at runtime.
-md Resources
+MD Resources
 
 REM Scenes.
-md Scenes
+MD Scenes
 
 REM Code.
-md Scripts
+MD Scripts
 
 REM Shaders.
-md Shaders
+MD Shaders
 
 REM Streaming assets.
-md StreamingAssets
+MD StreamingAssets
 
 REM Textures.
-md Textures
+MD Textures
 
-cd ..\..\..
+CD ..\..\..
 
-echo Done!
-pause
-exit
+ECHO Done!
+PAUSE
+
+EXIT
