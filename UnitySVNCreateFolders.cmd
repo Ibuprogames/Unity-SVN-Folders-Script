@@ -4,7 +4,7 @@ REM A simple script in Windows Batch, to create the necessary folders for Unity 
 REM
 REM MUST be run in the root folder of the project.
 REM
-REM For more details see http://blog.ibuprogames.com/...
+REM For more details see http://blog.ibuprogames.com/2014/05/05/a-beginning-is-a-very-delicate-time
 REM
 
 ECHO Creating folders.
